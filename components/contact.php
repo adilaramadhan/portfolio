@@ -63,7 +63,7 @@ $formspree_id = "YOUR_FORMSPREE_ID";
                     </a>
 
                     <!-- LinkedIn Card -->
-                    <a href="https://linkedin.com/in/adilaramadhan" target="_blank" rel="noopener noreferrer" class="glass-card hover-lift flex items-center p-4 rounded-xl border border-zinc-800 transition-all duration-300">
+                    <a href="https://linkedin.com/in/adila-ramadhan-a3549a40b/" target="_blank" rel="noopener noreferrer" class="glass-card hover-lift flex items-center p-4 rounded-xl border border-zinc-800 transition-all duration-300">
                         <div class="p-3 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-lg mr-4 flex-shrink-0">
                             <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
