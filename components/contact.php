@@ -3,7 +3,7 @@
 // Untuk mengirim pesan form ke email Anda, daftar gratis di https://formspree.io
 // Setelah membuat form di Formspree, ganti "YOUR_FORMSPREE_ID" di bawah dengan ID yang Anda dapatkan.
 // Contoh: $formspree_id = "xrgnjkpq";
-$formspree_id = "YOUR_FORMSPREE_ID"; 
+$formspree_id = "mwvzwgag"; 
 ?>
 
 <!-- Contact Section -->
@@ -88,10 +88,9 @@ $formspree_id = "YOUR_FORMSPREE_ID";
                     email: '', 
                     message: '', 
                     loading: false,
-                    formspreeId: '<?php echo $formspree_id; ?>',
+                    formspreeId: 'mwvzwgag',
                     submitForm() {
                         if (this.formspreeId === 'YOUR_FORMSPREE_ID' || this.formspreeId === '') {
-                            // Fallback simulation mode
                             this.loading = true;
                             setTimeout(() => {
                                 this.loading = false;
@@ -177,7 +176,7 @@ $formspree_id = "YOUR_FORMSPREE_ID";
                             <button type="submit" :disabled="loading" class="w-full inline-flex items-center justify-center px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-zinc-950 font-bold transition-all shadow-lg shadow-emerald-500/20 disabled:opacity-50">
                                 <span x-show="!loading" class="flex items-center">
                                     <i data-lucide="send" class="w-4 h-4 mr-2"></i>
-                                    EXECUTE_SEND
+                                    SUBMIT
                                 </span>
                                 <span x-show="loading" class="flex items-center">
                                     <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-zinc-950" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
