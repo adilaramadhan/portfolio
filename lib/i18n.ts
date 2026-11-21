@@ -1,5 +1,5 @@
 // ponytail: basePath dup of next.config.ts — next/image + plain hrefs don't get it applied automatically
-export const BASE_PATH = "/portofolio";
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const waUrl = (text: string) => `https://wa.me/6285709434849?text=${encodeURIComponent(text)}`;
 
 export const en = {
