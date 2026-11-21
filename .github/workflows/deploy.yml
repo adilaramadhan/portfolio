@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /portofolio
+          NEXT_PUBLIC_SITE_URL: https://adilaramadhan.github.io
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

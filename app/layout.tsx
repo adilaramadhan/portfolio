@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,10 +12,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-// ponytail: production URL dup of repo name — update here when GitHub username/repo changes
-const SITE = "https://AdilaRamadhan.my.id";
-const SITE_URL = `${SITE}/portofolio`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
